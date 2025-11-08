@@ -24,7 +24,10 @@ Using **Stripe Issuing**, simulated transactions are mapped to **merchant catego
   Visualizes total emissions, category breakdowns, and month-over-month impact.
 
 - 🧩 **Experiment Mode**  
-  Simulate business changes - like switching suppliers or reducing travel — and see how emissions shift instantly.
+  Simulate business changes - like switching suppliers or reducing travel - and see how emissions shift instantly.
+
+- 🧮 **Scenarios Functionality**  
+  Apply custom sustainability “what-if” scenarios to your transaction data — such as reducing travel, switching suppliers, or cutting spending in certain categories — and visualize the resulting *kg CO₂e delta* across all business operations.
 
 - 💳 **Simulated Bank Accounts**  
   Uses **Stripe Issuing (test mode)** to generate transaction streams from imaginary businesses for prototyping and analysis.
@@ -54,10 +57,14 @@ Using **Stripe Issuing**, simulated transactions are mapped to **merchant catego
 ---
 
 ### 🌎 Emission Breakdown and Spend Analysis
-![Emission Breakdown and KG Values](./dashboard-bottom.png)
+![Emission Breakdown and Spend Analysis](./dashboard-bottom.png)
 
 ---
 
+### 🧮 Scenario - Visualize kg Delta
+![Scenario Applied; Visualize kg Delta](./dashboard-delta.png)
+
+---
 
 ## 📚 How It Works
 
@@ -68,30 +75,35 @@ Using **Stripe Issuing**, simulated transactions are mapped to **merchant catego
    Each transaction category maps to an EEIO sector’s emissions factor.
 
 3. **Emissions Calculation**  
-   Emissions = *Transaction Amount × Emission Factor (kg CO₂e / USD)*
-   _- occassionally, a weight will be applied to the emission amount in case of scenario selection_
+   Emissions = *Transaction Amount × Emission Factor (kg CO₂e / USD)*  
+   _- occasionally, a weight will be applied to the emission amount in case of scenario selection._
+
+4. **Scenario Application**  
+   Users can apply predefined or custom scenarios that dynamically adjust emissions values based on behavioral or supplier changes.
+
 5. **Visualization**  
-   Data is aggregated into an interactive dashboard with filtering and scenario tools.
+   Data is aggregated into an interactive dashboard with filtering, comparison, and scenario visualization tools.
 
 ---
 
 ## 💡 Future Plans
 
-- Develop **automated sustainability reporting exports** and generate B2B revenue 
+- Develop **automated sustainability reporting exports** and generate B2B revenue  
 - Integrate **live bank connections** (e.g., Plaid) for real financial data  
 - Add **AI-driven emissions recommendations**  
 - Build **benchmark comparisons** by industry and region  
-
+- Expand the **Scenarios functionality** with a growing library of sustainability simulations (e.g., renewable energy adoption, EV fleet modeling, supplier efficiency upgrades).
+    - I also plan to integrate a **conversational chatbot interface** that can analyze user input to **manipulate data values directly** — allowing businesses to modify assumptions or apply new scenarios through natural language.
 
 ---
 
 ## 🧑‍💻 Authors
 
-**Ardi Ahmed, ** **Adam Khadre, ** **Junna Park **  
+**Ardi Ahmed,** **Adam Khadre,** **Junna Park**  
 Founders of Greenline, HackOHI/O '25  
 The Ohio State University - Computer Science & Engineering  
-https://linkedin.com/in/ardiahmed1
-https://github.com/ardiahm
+[LinkedIn](https://linkedin.com/in/ardiahmed1)  
+[GitHub](https://github.com/ardiahm)
 
 ---
 
