@@ -40,10 +40,6 @@ Using **Stripe Issuing**, simulated transactions are mapped to **merchant catego
 
 ## 🖼️ Screenshots
 
-th this simpler markdown layout:
-
-## 🖼️ Screenshots
-
 ### 🪩 Landing Page
 ![Landing Page](./landing-page.png)
 
@@ -89,15 +85,16 @@ th this simpler markdown layout:
 ## 🧑‍💻 Authors
 
 **Ardi Ahmed, ** **Adam Khadre, ** **Junna Park **  
-Founded of bGreen in HackOHI/O '25  
-📍 The Ohio State University - Computer Science & Engineering  
-🌐 [LinkedIn](https://www.linkedin.com/in/ardiahmed1) | [GitHub](https://github.com/ardiahm)
+Founders of bGreen, HackOHI/O '25  
+The Ohio State University - Computer Science & Engineering  
+https://linkedin.com/in/ardiahmed1
+https://github.com/ardiahm
 
 ---
 
 ## 🪶 All Rights Reserved 
 
-bGreen - Ardi Ahmed All Rights Reserved
+bGreen - All Rights Reserved
 
 ---
 
