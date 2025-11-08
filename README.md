@@ -40,9 +40,22 @@ Using **Stripe Issuing**, simulated transactions are mapped to **merchant catego
 
 ## 🖼️ Screenshots
 
-| Dashboard | Transaction View | Experiment Mode |
-|------------|------------------|------------------|
-| ![Landing Page](./landing-page.png) | ![Dashboard and Entries](./dashboard-top.png) | ![Emission Breakdown and KG Values](./dashboard-bottom.pngh) |
+th this simpler markdown layout:
+
+## 🖼️ Screenshots
+
+### 🪩 Landing Page
+![Landing Page](./landing-page.png)
+
+---
+
+### 📊 Dashboard and Entries
+![Dashboard and Entries](./dashboard-top.png)
+
+---
+
+### 🌎 Emission Breakdown and Spend Analysis
+![Emission Breakdown and KG Values](./dashboard-bottom.png)
 
 ---
 
